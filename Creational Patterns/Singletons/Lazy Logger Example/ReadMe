@@ -1,0 +1,6 @@
+This singleton example is based on an example in Umar Lone's
+Udemy course titled "Creational design patterns in Modern C++". 
+I have left in commented code to allow experimentation with the
+different ways to make a singleton thread safe. Running it as-is
+uses the Meyers singleton, and as such this logger class is thread
+safe.
