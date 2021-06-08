@@ -1,0 +1,2 @@
+This singleton example was a college course project. It is a more robust version
+of the basic singleton example, with a test class and thread safety being required.
