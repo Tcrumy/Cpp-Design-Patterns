@@ -1,0 +1,2 @@
+This program simulates a repository. The files in the storage class can be accessed through the Repository class
+or Acccess can be restricted through the ProtectedRepository class.
