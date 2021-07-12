@@ -8,6 +8,9 @@ namespace fs = std::filesystem;
 
 class Storage
 {
+private:
+	void addFilesToVector(const fs::path& p);
+
 protected:
 	std::vector<std::string> fileNames;
 	std::vector<std::string> AllowedReadWriteDeleteAccess{"Manager","Engineer"};
@@ -20,7 +23,6 @@ public:
 	virtual void UpdateFile(const std::string& fileName, std::string Role) = 0;
 	virtual void ViewFile(const std::string& fileName, std::string Role) = 0;
 	virtual void displayFileNames() const = 0;
-	void addFilesToVector(const fs::path& p);
 	virtual ~Storage() = default;
 };
 
