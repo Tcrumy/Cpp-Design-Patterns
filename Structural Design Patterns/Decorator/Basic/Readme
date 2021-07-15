@@ -1,0 +1,4 @@
+This is a basic decorator pattern example. It is based on Umar Lone's example in the "Structural Design patterns in Modern C++" udemy course.
+The Component class will serve as an interface for all derived classes. ConcreteComponent shows a non decorated component impmlementation. 
+Decorator inheirits from Component and composes a poiter to Component. All decorator classes are derived from Decorator, which is derived from
+Component. This allows for extention of Component's methods\data members without the need to modify Component.
