@@ -1,0 +1,7 @@
+This is an example of a pointer to implementation bridge design that is based on Umar Lone's "Design Patterns in Modern C++"
+Udemy course. The Employee class will have a pointer to the EmployeeImpl class where the functionality of Employee will be 
+implemented. The benefits of this design become clear when adding data members/methods to the EmployeeImpl class as opposed to 
+the Employee class. The Tax and Account .cpp files in this program do nothing, they are only there to show that any changes made
+to the Employee class will force any file that uses the Employee.h file to recompile at build time. This can be demonstrated by
+uncommenting the data members in Employee. Any changes to the EmployeeImpl class only cause Employee to recompile at build time.
+This allows preservation of binary compatibility between the employee class and it's clients.
