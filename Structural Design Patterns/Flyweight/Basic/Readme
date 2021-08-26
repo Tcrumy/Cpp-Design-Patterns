@@ -1,0 +1,2 @@
+This is a basic implementation of the flyweight design pattern. This program is based on Umar Lone's "Structural Design Patterns in Modern C++" udemy course.
+There is a shared flyweight class and an unshared flyweight class.
